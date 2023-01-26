@@ -14,6 +14,7 @@ import { SigcobileComponent } from './components/sigcobile/sigcobile.component';
 import { RafeeqahComponent } from './components/rafeeqah/rafeeqah.component';
 import { AzoleComponent } from './components/azole/azole.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { NwabisaComponent } from './components/nwabisa/nwabisa.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     SigcobileComponent,
     RafeeqahComponent,
     AzoleComponent,
-    NavbarComponent
+    NavbarComponent,
+    NwabisaComponent
   ],
   imports: [
     BrowserModule,

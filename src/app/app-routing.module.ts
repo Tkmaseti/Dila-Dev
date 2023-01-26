@@ -10,6 +10,7 @@ import { ClementineComponent } from './components/clementine/clementine.componen
 import { FaithComponent } from './components/faith/faith.component';
 import { RafeeqahComponent } from './components/rafeeqah/rafeeqah.component';
 import { SigcobileComponent } from './components/sigcobile/sigcobile.component';
+import { NwabisaComponent } from './components/nwabisa/nwabisa.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: "faith", component: FaithComponent},
   {path: "rafeeqah", component: RafeeqahComponent},
   {path: "sigcobile", component: SigcobileComponent},
+  {path: "nwabisa", component: NwabisaComponent}
 ];
 
 @NgModule({
