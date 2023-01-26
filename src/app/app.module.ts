@@ -19,6 +19,13 @@ import { SiyonelaComponent } from './components/siyonela/siyonela.component';
 import { SongezoComponent } from './components/songezo/songezo.component';
 import { FrontendComponent } from './components/category/frontend/frontend.component';
 import { RouterLink } from '@angular/router';
+import { SasComponent } from './components/category/sas/sas.component';
+import { TestingComponent } from './components/category/testing/testing.component';
+import { CybersecurityComponent } from './components/category/cybersecurity/cybersecurity.component';
+import { BackendComponent } from './components/category/backend/backend.component';
+import { DesingerComponent } from './components/category/desinger/desinger.component';
+import { NtlantlaComponent } from './components/ntlantla/ntlantla.component';
+import { ChrisComponent } from './components/chris/chris.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +44,14 @@ import { RouterLink } from '@angular/router';
     NwabisaComponent,
     SiyonelaComponent,
     SongezoComponent,
-    FrontendComponent
+    FrontendComponent,
+    SasComponent,
+    TestingComponent,
+    CybersecurityComponent,
+    BackendComponent,
+    DesingerComponent,
+    NtlantlaComponent,
+    ChrisComponent
   ],
   imports: [
     BrowserModule,

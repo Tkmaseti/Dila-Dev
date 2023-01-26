@@ -13,6 +13,12 @@ import { SigcobileComponent } from './components/sigcobile/sigcobile.component';
 import { NwabisaComponent } from './components/nwabisa/nwabisa.component';
 import { SiyonelaComponent } from './components/siyonela/siyonela.component';
 import { FrontendComponent } from './components/category/frontend/frontend.component';
+import { SongezoComponent } from './components/songezo/songezo.component';
+import { DesingerComponent } from './components/category/desinger/desinger.component';
+import { CybersecurityComponent } from './components/category/cybersecurity/cybersecurity.component';
+import { SasComponent } from './components/category/sas/sas.component';
+import { BackendComponent } from './components/category/backend/backend.component';
+import { TestingComponent } from './components/category/testing/testing.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -27,9 +33,52 @@ const routes: Routes = [
   {path: "sigcobile", component: SigcobileComponent},
   {path: "nwabisa", component: NwabisaComponent},
   {path: "siyonela", component: SiyonelaComponent},
+  {path: "songezo", component: SongezoComponent},
+
+
+  // cybersecurity
+  {path: "cybersecurity", component: CybersecurityComponent},
+
+  {path: "cybersecurity/tsepang", component: TsepangComponent},
+  {path: "cybersecurity/siyonela", component: SiyonelaComponent},
+
+  //Designer
+
+  {path: "designer", component: DesingerComponent},
+  {path: "designer/sigcobile", component: SigcobileComponent},
+
+  //Frontend
   {path: "frontend", component: FrontendComponent},
 
-  {path: "frontend/tsepang", component: TsepangComponent},
+  {path: "frontend/clementine", component: ClementineComponent},
+  {path: "frontend/dildaar", component: DildaarComponent},
+  {path: "frontend/cebokazi", component: CebokaziComponent},
+  {path: "frontend/nwabisa", component: NwabisaComponent},
+
+
+  //SAS
+
+  {path: "sas", component: SasComponent},
+
+  {path: "sas/rafeeqah", component: RafeeqahComponent},
+  {path: "sas/elona", component: ElonaComponent},
+
+  //Testing
+  {path: "testing", component: TestingComponent},
+
+  {path: "testing/faith", component: FaithComponent},
+
+  //Backend
+  {path: "backend", component: BackendComponent},
+
+  {path: "backend/dildaar", component: DildaarComponent},
+  {path: "backend/tsepang", component: TsepangComponent},
+
+
+
+
+
+
 
 ];
 
