@@ -13,6 +13,7 @@ import { ElonaComponent } from './components/elona/elona.component';
 import { SigcobileComponent } from './components/sigcobile/sigcobile.component';
 import { RafeeqahComponent } from './components/rafeeqah/rafeeqah.component';
 import { AzoleComponent } from './components/azole/azole.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AzoleComponent } from './components/azole/azole.component';
     ElonaComponent,
     SigcobileComponent,
     RafeeqahComponent,
-    AzoleComponent
+    AzoleComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
