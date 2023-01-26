@@ -11,6 +11,8 @@ import { FaithComponent } from './components/faith/faith.component';
 import { RafeeqahComponent } from './components/rafeeqah/rafeeqah.component';
 import { SigcobileComponent } from './components/sigcobile/sigcobile.component';
 import { NwabisaComponent } from './components/nwabisa/nwabisa.component';
+import { SiyonelaComponent } from './components/siyonela/siyonela.component';
+import { FrontendComponent } from './components/category/frontend/frontend.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -23,7 +25,12 @@ const routes: Routes = [
   {path: "faith", component: FaithComponent},
   {path: "rafeeqah", component: RafeeqahComponent},
   {path: "sigcobile", component: SigcobileComponent},
-  {path: "nwabisa", component: NwabisaComponent}
+  {path: "nwabisa", component: NwabisaComponent},
+  {path: "siyonela", component: SiyonelaComponent},
+  {path: "frontend", component: FrontendComponent},
+
+  {path: "frontend/tsepang", component: TsepangComponent},
+
 ];
 
 @NgModule({

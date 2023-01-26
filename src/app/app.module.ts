@@ -15,6 +15,10 @@ import { RafeeqahComponent } from './components/rafeeqah/rafeeqah.component';
 import { AzoleComponent } from './components/azole/azole.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NwabisaComponent } from './components/nwabisa/nwabisa.component';
+import { SiyonelaComponent } from './components/siyonela/siyonela.component';
+import { SongezoComponent } from './components/songezo/songezo.component';
+import { FrontendComponent } from './components/category/frontend/frontend.component';
+import { RouterLink } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -30,11 +34,14 @@ import { NwabisaComponent } from './components/nwabisa/nwabisa.component';
     RafeeqahComponent,
     AzoleComponent,
     NavbarComponent,
-    NwabisaComponent
+    NwabisaComponent,
+    SiyonelaComponent,
+    SongezoComponent,
+    FrontendComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
