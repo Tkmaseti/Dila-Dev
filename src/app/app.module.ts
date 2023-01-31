@@ -27,6 +27,7 @@ import { DesingerComponent } from './components/category/desinger/desinger.compo
 import { NtlantlaComponent } from './components/ntlantla/ntlantla.component';
 import { ChrisComponent } from './components/chris/chris.component';
 import { LuyoloComponent } from './components/luyolo/luyolo.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { LuyoloComponent } from './components/luyolo/luyolo.component';
     DesingerComponent,
     NtlantlaComponent,
     ChrisComponent,
-    LuyoloComponent
+    LuyoloComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
