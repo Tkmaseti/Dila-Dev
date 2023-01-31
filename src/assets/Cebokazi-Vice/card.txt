@@ -1,0 +1,2 @@
+About: A web developer specializing in HTML CSS JAVASCRIPT and frontend development.
+Skills: HTML CSS JAVASCRIPT 

@@ -1,0 +1,11 @@
+
+I am an ISTQB certified Software Tester. I am a motivated and ambitious individual with a <br>strong interest in technology.
+         I approach work with a positive attitude and am constantly<br> eager to
+            learn new things.
+
+
+skills
+Functional and non-functional testing
+UI Testing
+Create test cases
+Exploratory testing and negative testing

@@ -18,8 +18,8 @@
     color: white;
 }
 
-.image {
-    background: white;
+.image img {
+    /* background: white; */
     width: 100px;
     height: 100px;
     border-radius: 50%;

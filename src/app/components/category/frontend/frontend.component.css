@@ -9,9 +9,10 @@
     margin: 20px;
 }
 
-.image {
+.image img{
+    margin-top: 5px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: black;
+    /* background: black; */
 }

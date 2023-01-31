@@ -19,6 +19,8 @@ import { CybersecurityComponent } from './components/category/cybersecurity/cybe
 import { SasComponent } from './components/category/sas/sas.component';
 import { BackendComponent } from './components/category/backend/backend.component';
 import { TestingComponent } from './components/category/testing/testing.component';
+import { ChrisComponent } from './components/chris/chris.component';
+import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -34,6 +36,9 @@ const routes: Routes = [
   {path: "nwabisa", component: NwabisaComponent},
   {path: "siyonela", component: SiyonelaComponent},
   {path: "songezo", component: SongezoComponent},
+  {path: "chris", component: ChrisComponent},
+  {path: "login", component: LoginComponent},
+
 
 
   // cybersecurity
@@ -54,6 +59,8 @@ const routes: Routes = [
   {path: "frontend/dildaar", component: DildaarComponent},
   {path: "frontend/cebokazi", component: CebokaziComponent},
   {path: "frontend/nwabisa", component: NwabisaComponent},
+  {path: "frontend/chris", component: ChrisComponent},
+
 
 
   //SAS
